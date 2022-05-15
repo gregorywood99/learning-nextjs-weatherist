@@ -1,0 +1,29 @@
+.data-block__box {
+  height: 4rem;
+  margin: 3.5rem 2.5rem 0rem;
+  background-color: var(--color-background);
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.data-block__column {
+  font-weight: var(--text-regular);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.data-column__title {
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
+  text-transform: uppercase;
+  color: var(--color-data-title);
+  font-size: var(--text-size-small);
+}
+
+.data-column__value {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-data-value);
+}

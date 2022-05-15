@@ -1,0 +1,34 @@
+.top-bar__box {
+  display: flex;
+  justify-content: space-between;
+  margin: 7.5rem 2.5rem 5rem;
+}
+
+.top-bar__list-box {
+  display: flex;
+  height: 4rem;
+  background-color: var(--color-background);
+  border-radius: 1rem;
+}
+
+.top-bar__list-box--added {
+  background-color: var(--color-added-to-list);
+}
+
+.top-bar__list-box-text {
+  margin: 1.25rem 1.25rem 1.25rem;
+  font-size: var(--text-size-small);
+  font-weight: var(--text-regular);
+}
+
+.top-bar__list-box-text--unadded {
+  color: var(--color-main-text);
+}
+
+.top-bar__list-box-text--added {
+  color: var(--color-text-added-to-list);
+}
+
+.top-bar__list-box-add {
+  margin: 1rem 1rem 1rem;
+}

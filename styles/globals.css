@@ -1,0 +1,62 @@
+@import "./colours.css";
+@import "components/example.css";
+@import "components/data-block.css";
+@import "components/main-weather-info.css";
+@import "components/page-turner.css";
+@import "components/search-bar.css";
+@import "components/sunrise-and-sunset.css";
+@import "components/container.css";
+@import "components/search-result-top-bar.css";
+@import "components/search-result.css";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-main);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.selected {
+  background-color: var(--color-main-text);
+}
+
+.not-selected {
+  background-color: var(--color-data-title);
+}
+
+.button__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button__box-button {
+  border: none;
+  background-color: var(--color-background);
+  color: var(--color-main-text);
+  margin-left: 3rem;
+  margin-right: 3rem;
+  height: 2rem;
+  border-radius: 1rem;
+}
+
+.button__box-button--added {
+  background-color: var(--color-added-to-list);
+}
+
+.weather-page__main-body {
+  margin-top: 2rem;
+}
+
+.search__box {
+  display: flex;
+  justify-content: center;
+}

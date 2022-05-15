@@ -1,0 +1,36 @@
+.main-weather-info__box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-weather-info__icon {
+  margin: 4rem 12.5rem 0rem;
+}
+
+.main-weather-info__icon-box {
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-weather-info__location-box {
+  margin: 3rem 10rem 0rem;
+  display: flex;
+}
+
+.main-weather-info__location {
+  font-weight: var(--text-bold);
+  font-size: var(--text-size-large);
+  color: var(--color-main-text);
+  margin-right: 0.5rem;
+}
+
+.main-weather-info__temperature {
+  margin: 1.5rem 13rem 0rem;
+  font-weight: var(--text-regular);
+  font-size: var(--text-size-xlarge);
+  color: var(--color-main-text);
+}

@@ -1,0 +1,11 @@
+.example {
+  background-color: var(--color-background);
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.example__element {
+}
+
+.example--variation {
+}

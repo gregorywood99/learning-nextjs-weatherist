@@ -1,0 +1,30 @@
+.search-bar__box {
+  display: flex;
+  justify-content: space-between;
+  width: 48rem;
+  height: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background-color: var(--color-background);
+  border-radius: 1.5rem;
+}
+
+.search-bar__input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  color: var(--color-data-title);
+  margin-left: 2rem;
+}
+
+.search-bar__input::placeholder {
+  font-size: var(--text-size-medium);
+}
+
+.search-bar__submit {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-right: 2rem;
+  border: none;
+  background-color: transparent;
+}
